@@ -1,0 +1,55 @@
+# Build output directories
+/build/
+/out/
+cmake-build-*/
+[Dd]ebug/
+[Rr]elease/
+RelWithDebInfo/
+MinSizeRel/
+
+# CMake and Ninja generated files (including in-source builds)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+/CMakeUserPresets.json
+
+# Compiler, linker, resource and debug artifacts
+*.obj
+*.o
+*.pch
+*.gch
+*.res
+*.exe
+*.dll
+*.lib
+*.a
+*.exp
+*.pdb
+*.ipdb
+*.iobj
+*.idb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.recipe
+*.manifest.res
+
+# Visual Studio local state and CMake-generated projects
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+*.sln
+*.slnx
+*.vcxproj
+*.vcxproj.filters

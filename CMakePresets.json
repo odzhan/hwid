@@ -1,0 +1,11 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {"major": 3, "minor": 25, "patch": 0},
+  "configurePresets": [{
+    "name": "windows-x64", "displayName": "MSVC x64 (Developer PowerShell)",
+    "generator": "Ninja", "binaryDir": "${sourceDir}/build/windows-x64",
+    "cacheVariables": {"CMAKE_BUILD_TYPE": "Release", "BUILD_TESTING": "ON", "CMAKE_CXX_COMPILER": "cl"}
+  }],
+  "buildPresets": [{"name": "windows-x64", "configurePreset": "windows-x64"}],
+  "testPresets": [{"name": "windows-x64", "configurePreset": "windows-x64", "output": {"outputOnFailure": true}}]
+}
